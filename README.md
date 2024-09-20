@@ -3,6 +3,7 @@
 ## Project Overview
 
 This project is a Streamlit app containerized using Docker to visualize Bike Traffic in Paris between 2020 and 2021. It allows for easy setup and deployment of the application by isolating dependencies and configurations in a Docker container.
+You can find the data used at these 2 links: [pre-processed_data.csv](https://hecparis-my.sharepoint.com/:x:/g/personal/jules_crevola_hec_edu/EU7xJlbi8H5LiVzRzW7K1j0Bb8JrdJnYgz5puyZUpstq8A?e=hzyirD) and [external_data.csv](https://hecparis-my.sharepoint.com/:x:/g/personal/jules_crevola_hec_edu/Ee0oCWNGBs5KtyyTgcpc-pgBmhS4lq732ZRQeyj0jbnNQg?e=fRajCf).
 
 ## Prerequisites
 
