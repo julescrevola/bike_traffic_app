@@ -15,5 +15,5 @@ Before running the application, make sure you have the following installed:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/julescrevola/bike_traffic_app.git
-cd bike_traffic_app
+$ git clone https://github.com/julescrevola/bike_traffic_app.git
+$ cd bike_traffic_app
