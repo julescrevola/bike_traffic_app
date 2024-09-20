@@ -32,6 +32,7 @@ Then to run the Docker image, enter:
 ```bash
 $ docker run -d -p 8501:8501 streamlit_bike_traffic_app
 ```
+That's it! You will now get a URL to open the app, or you can simple type [localhost:8501]http://localhost:8501/ in your browser and the app will open.
 
 ## Stopping and Removing the container
 
