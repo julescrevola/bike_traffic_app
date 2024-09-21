@@ -13,7 +13,7 @@ Before running the application, make sure you have the following installed:
 
 ## Setup
 
-Clone the repository to your local machine:
+On your terminal, clone the repository to your local machine:
 
 ```bash
 $ git clone https://github.com/julescrevola/bike_traffic_app.git
