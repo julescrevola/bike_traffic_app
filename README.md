@@ -63,3 +63,21 @@ The first line sets the base image for the container:
 FROM python:3.9-slim
 ```
 
+Then the WORKDIR command sets the folder in which to execute the files, in this case bike_traffic_app:
+
+```python
+WORKDIR bike_traffic_app
+```
+
+The following block allows to install git in order to clone the app repo if needed:
+
+```python
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    curl \
+    software-properties-common \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+```
+
+Then ```python COPY . . ``` is used to copy all files of the working directory inside the container.
