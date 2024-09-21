@@ -100,6 +100,6 @@ tell the container to listen to Streamlit's default port, which is 8501, and ins
 
 Finally,
 ```python
-ENTRYPOINT ["streamlit", "run", "bike_traffic_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "Streamlit_app_bike_traffic.py", "--server.port=8501", "--server.address=0.0.0.0"]
 ```
 configures the container to run as an executable, and I added here the ```streamlit run``` command so that it runs automatically when you run the container (instead of having to run the command on your terminal).
