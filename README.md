@@ -102,4 +102,4 @@ Finally,
 ```python
 ENTRYPOINT ["streamlit", "run", "bike_traffic_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 ```
-configure the container to run as an executable, and I added here the ```streamlit run``` command so that it runs automatically when you run the container (instead of having to run the command on your terminal).
+configures the container to run as an executable, and I added here the ```streamlit run``` command so that it runs automatically when you run the container (instead of having to run the command on your terminal).
