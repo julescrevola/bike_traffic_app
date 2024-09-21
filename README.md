@@ -80,4 +80,26 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 ```
 
-Then ```python COPY . . ``` is used to copy all files of the working directory inside the container.
+Then 
+```python
+COPY . .
+```
+is used to copy all files of the working directory inside the container.
+
+You then need to run the requirements.txt file to install all necessary dependencies with the line:
+```python
+RUN pip3 install -r requirements.txt
+```
+
+The lines
+```python
+EXPOSE 8501
+HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
+```
+tell the container to listen to Streamlit's default port, which is 8501, and instruct Docker on how to tell whether the container is still working.
+
+Finally,
+```python
+ENTRYPOINT ["streamlit", "run", "bike_traffic_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+```
+configure the container to run as an executable, and I added here the ```streamlit run``` command so that it runs automatically when you run the container (instead of having to run the command on your terminal).
