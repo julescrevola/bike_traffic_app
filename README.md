@@ -53,3 +53,13 @@ $ docker ps
 
 
 And copy the container id corresponding to your container name.
+
+
+## Technical details about the Dockerfile
+
+The first line sets the base image for the container:
+
+```python
+FROM python:3.9-slim
+```
+
