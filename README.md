@@ -16,8 +16,8 @@ Before running the application, make sure you have the following installed:
 On your terminal, clone the repository to your local machine:
 
 ```bash
-$ git clone https://github.com/julescrevola/bike_traffic_app.git
-$ cd bike_traffic_app
+git clone https://github.com/julescrevola/bike_traffic_app.git
+cd bike_traffic_app
 ```
 Once you downloaded the data, put the two files in the bike_traffic_app repository that you just cloned on your local machine so that you do not need to modify the code of Streamlit_bike_traffic_app.py to load them when running the app.
 
