@@ -36,6 +36,8 @@ docker run -d -p 8501:8501 streamlit_bike_traffic_app
 ```
 That's it! You can now simply type [localhost:8501](http://localhost:8501/) in your browser and the app will open.
 
+To continue using the terminal you can press ```Ctrl + C```.
+
 ## Stopping and Removing the container
 
 If you need to stop and remove the container to update it with a more recent one after having made some changes, you can do:
