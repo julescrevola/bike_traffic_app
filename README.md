@@ -26,13 +26,13 @@ Once you downloaded the data, put the two files in the bike_traffic_app reposito
 To build the Docker image, run in your terminal:
 
 ```bash
-$ docker build -t streamlit_bike_traffic_app .
+docker build -t streamlit_bike_traffic_app .
 ```
 
 Then to run the Docker image, enter:
 
 ```bash
-$ docker run -d -p 8501:8501 streamlit_bike_traffic_app
+docker run -d -p 8501:8501 streamlit_bike_traffic_app
 ```
 That's it! You can now simply type [localhost:8501](http://localhost:8501/) in your browser and the app will open.
 
@@ -41,14 +41,14 @@ That's it! You can now simply type [localhost:8501](http://localhost:8501/) in y
 If you need to stop and remove the container to update it with a more recent one after having made some changes, you can do:
 
 ```bash
-$ docker stop <container_id>
-$ docker rm <container_id>
+docker stop <container_id>
+docker rm <container_id>
 ```
 
 To get the container id, you can run:
 
 ```bash
-$ docker ps
+docker ps
 ```
 
 
